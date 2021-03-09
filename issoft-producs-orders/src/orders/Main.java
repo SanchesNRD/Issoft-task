@@ -35,6 +35,7 @@ public class Main {
 		String date = null;
 		BufferedReader reader = null;
 		
+		System.out.println("¬ведите дату (год-мес€ц-день) пример: 2021-01-12: ");
 		try {
 			reader = new  BufferedReader(new InputStreamReader(System.in));
 			date = reader.readLine();
